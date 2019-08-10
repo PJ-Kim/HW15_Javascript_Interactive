@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///hw15/bellybutton.sqlite"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///bellybutton.sqlite"
 # app.config.update(
 #   TESTING=True,
 #   EXPLAIN_TEMPLATE_LOADING=True
