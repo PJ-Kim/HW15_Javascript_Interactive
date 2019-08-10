@@ -1,1 +1,1 @@
-web: gunicorn hw15.app:app
+web: gunicorn app:app
