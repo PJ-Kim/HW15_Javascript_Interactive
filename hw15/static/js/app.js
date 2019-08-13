@@ -26,7 +26,7 @@ function buildCharts(sample) {
     width: 900,
     title: "Pie Chart"
     };
-    Plotly.plot("pie", data, layout);
+    Plotly.newPlot("pie", data, layout);
   
       // @TODO: Build a Bubble Chart using the sample data
     var data = [{
